@@ -112,7 +112,7 @@ gw:
 # risk for poorly written scripts, and could be an opening for DOS-style
 # attacks on your cluster.
 cr:
-  enabled: false
+  enabled: true
   registry: deis
   name: brigade-cr-gateway
   #tag: latest
