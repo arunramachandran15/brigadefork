@@ -118,7 +118,7 @@ cr:
   #tag: latest
   service:
     name: brigade-cr-service
-    type: ClusterIP  # Change to LoadBalancer if you want this externally available.
+    type: LoadBalancer  # Change to LoadBalancer if you want this externally available.
     externalPort: 80
     internalPort: 8000
 
