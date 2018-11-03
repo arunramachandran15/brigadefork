@@ -158,7 +158,8 @@ vacuum:
 # listening for incomming GitHub requests, disable this.
 service:
   name: brigade-service
-  type: LoadBalancer
+  type: Nodeport
+  nodePort: 300031
   externalPort: 7744
   internalPort: 7744
 # By default, this is off. If you enable it, you might want to change the
